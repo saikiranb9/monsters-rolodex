@@ -1,0 +1,20 @@
+.card-cont {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    background-color: #95dada;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 50px;
+    cursor: pointer;
+    margin: 10px;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+
+  }
+  
+  .card-cont:hover {
+    transform: scale(1.05);
+  }
